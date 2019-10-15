@@ -20,7 +20,7 @@ func KToP(k Kilogram) Pound {
 	return Pound(k * 2.205)
 }
 
-// declare String methods to control how
+// declare String methods to control how values of each type appear
 func (p Pound) String() string {
 	return fmt.Sprintf("%g pounds", p)
 }
